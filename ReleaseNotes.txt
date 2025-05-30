@@ -1,0 +1,24 @@
+﻿<h3>GIBS_TideCharts</h3>
+<p class="Contributor">
+	gibs.com <br />
+	<a href="mailto:modules@gibs.com">modules@gibs.com</a><br />
+	<a href=https://www.gibs.com/>https://www.gibs.com/</a><br />
+	This extension was created using <a href="https://www.christoc.com">Christoc's</a> Module Development Templates for DNN.
+</p>
+<hr/>
+<div class="License">
+	<h3>About the GIBS_TideCharts</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+			<li>of</li>
+			<li>bug</li>
+			<li>fixes</li>
+	</ul>
+	
+</div>
