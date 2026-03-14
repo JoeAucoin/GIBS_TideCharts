@@ -26,25 +26,7 @@ namespace GIBS.Modules.GIBS_TideCharts
         /// Corresponds to the 'id' field in the NOAA stations API.
         /// </summary>
        
-        public string StationId
-        {
-            get
-            {
-                if (Settings.Contains("StationId"))
-                    return Settings["StationId"].ToString();
-                return "";
-            }
-            set
-            {
-                var mc = new ModuleController();
-                mc.UpdateTabModuleSetting(TabModuleId, "StationId", value.ToString());
-            }
-        }
-        /// <summary>
-        /// Gets or sets the name of the selected NOAA weather station.
-        /// Corresponds to the 'name' field in the NOAA stations API.
-        /// </summary>
-
+       
 
         public string StationID
         {

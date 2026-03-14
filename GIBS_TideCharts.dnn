@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="GIBS_TideCharts" type="Module" version="00.00.07">
+    <package name="GIBS_TideCharts" type="Module" version="00.00.08">
       <friendlyName>GIBS TideCharts</friendlyName>
       <description>GIBS TideChart Module provides NOAA Tide Predictions</description>
       <iconFile>~/DesktopModules/GIBS_TideCharts/images/TideChart.png</iconFile>

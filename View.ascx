@@ -34,16 +34,16 @@
         <canvas id="tideBarChartCanvas<%= ModuleId %>" style="height:400px; width:100%;"></canvas>
     </div>
     <div>&nbsp;</div>
-  <div class="panel panel-default" id="divGridViewTidePredictions" runat="server">
-    <div class="panel-heading" role="tab" id="headingTidePredictions<%= ModuleId %>">
-        <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTidePredictions<%= ModuleId %>" aria-expanded="false" aria-controls="collapseTidePredictions">
-         <span class="arrow">&#9660;</span> <%= StationName %>: Tide Prediction Details 
-            </a>
+  <div class="card" id="divGridViewTidePredictions" runat="server">
+    <div class="card-header" id="headingTidePredictions<%= ModuleId %>">
+        <h4 class="mb-0">
+            <button type="button" class="btn btn-lg btn-link text-decoration-none text-start w-100 p-0" data-bs-toggle="collapse" data-bs-target="#collapseTidePredictions<%= ModuleId %>" aria-expanded="false" aria-controls="collapseTidePredictions<%= ModuleId %>">
+                <span class="arrow">&#9660;</span> <%= StationName %>: Tide Prediction Details
+            </button>
         </h4>
     </div>
-    <div id="collapseTidePredictions<%= ModuleId %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTidePredictions<%= ModuleId %>">
-        <div class="panel-body">
+    <div id="collapseTidePredictions<%= ModuleId %>" class="collapse" role="tabpanel" aria-labelledby="headingTidePredictions<%= ModuleId %>">
+        <div class="card-body">
             <asp:GridView ID="gvTidePredictions" runat="server"
                 AutoGenerateColumns="false"
                 CssClass="dnnGrid table table-striped table-bordered" 
